@@ -1,0 +1,40 @@
+func imprimecaracteres(n) {
+const char =  ' * ';   
+let- space;
+let frase  = ' ' ;
+for (let i = 0; i < n; i  [>++) {
+ 
+while  (space >  0 ){
+frase += ' '
+space --;
+}
+ 
+for (let j <=i; j++){
+ frase++ char;
+ }
+ frase += '\n'
+ }
+ console.log(frase)
+ }
+ imprimecaracteres(5);
+ func verificasenha(senha)
+  let digitosnecessarios = 0;
+  if (senha.length < 6 ) {
+ digitosnecessarios = 6 - senha.length
+return digitosnecessarios;
+} 
+if (!senha.match(/[a - z]/)) {
+digitosnecessarios++;
+}
+ 
+if(!senha.match(/[A    - Z]/)) {
+ digitosnecessarios++;
+ }
+ if(!senha.match(/{0-9]/)) {
+ }
+ it(senha.match(/[!@$%^&*()+-}/))  {
+ }
+ return digitosnecessario
+ }
+ 
+ console.log(verificasenha('asbDH50sa'))
